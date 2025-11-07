@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Salma Abdelhady | Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <h1 class="logo">Salma<span>Abdelhady</span></h1>
+        <ul>
+          <li><a href="#home" class="active">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <button id="theme-toggle">☀️</button>
+      </nav>
+    </header>
+
+    <!-- HOME -->
+    <section id="home" class="section home">
+      <div class="home-content">
+        <h2>Hi, I'm <span>Salma Abdelhady</span></h2>
+        <h3>Data Engineer & Researcher</h3>
+        <p>
+          Passionate about data science, computational systems, and cloud
+          technologies. I aim to use data and computing to design practical,
+          efficient solutions to real-world problems.
+        </p>
+        <div class="socials">
+          <a href="mailto:salmaabdelhady91@gmail.com">📧</a>
+          <a href="https://linkedin.com/in/salma-abdelhady-" target="_blank"
+            >in</a
+          >
+          <a href="https://github.com/salma-abdelhady" target="_blank">🐙</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="section about">
+      <h2>About Me</h2>
+      <p>
+        <strong>Bachelor of Computer Science (AI & Data Science)</strong
+        ><br />Zagazig University | Expected July 2027
+      </p>
+
+      <h3>Technical Skills</h3>
+      <ul class="skills">
+        <li>Python</li>
+        <li>C++</li>
+        <li>SQL</li>
+        <li>PostgreSQL</li>
+        <li>MySQL</li>
+        <li>MongoDB</li>
+        <li>Azure</li>
+        <li>Pandas, NumPy, Matplotlib</li>
+      </ul>
+
+      <h3>Projects</h3>
+      <div class="projects">
+        <div class="card">
+          <h4>Data Engineering Jobs Scraper</h4>
+          <p>
+            Scraped and structured job listings using Python, BeautifulSoup,
+            Pandas, and MySQL.
+          </p>
+        </div>
+        <div class="card">
+          <h4>Stock Market Data Tracker</h4>
+          <p>
+            Analyzed and visualized stock data using Pandas, NumPy, and
+            Matplotlib.
+          </p>
+        </div>
+        <div class="card">
+          <h4>Weather Data Structures</h4>
+          <p>
+            Implemented linked lists, stacks, and queues to process weather
+            records.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section contact">
+      <h2>Contact Me</h2>
+      <p>
+        I'd love to connect! Feel free to reach out for collaborations or
+        opportunities.
+      </p>
+
+      <form id="contactForm">
+        <input type="text" id="name" placeholder="Your Name" required />
+        <input type="email" id="email" placeholder="Your Email" required />
+        <textarea id="message" placeholder="Your Message" required></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+
+      <div id="formMessage"></div>
+    </section>
+
+    <footer>
+      <p>© 2025 Salma Abdelhady | All Rights Reserved</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
